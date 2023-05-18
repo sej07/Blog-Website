@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blogpost.css" />
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Responsive Blog Website</title>
+  </head>
+  <body>
+    <nav class="navigation max-width-1 m-auto">
+      <div class="nav-left">
+        <span> Blogs</span>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form action="/search.html" method="get">
+          <input
+            class="form-input"
+            type="text"
+            name="query"
+            placeholder="Article Search"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="max-width-1 m-auto"><hr /></div>
+    <div class="content max-width-1 m-auto blog">
+      <div class="blog-content">
+        <h1>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem,
+          eum.
+        </h1>
+        <div class="info">
+          <div class="author">
+            <div><h3>Author Name</h3></div>
+            <div>6 min Read</div>
+          </div>
+          <div class="social">
+            <svg width="27" height="27" viewBox="0 0 24 24" aria-label="clap">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.37.83L12 3.28l.63-2.45h-1.26zM13.92 3.95l1.52-2.1-1.18-.4-.34 2.5zM8.59 1.84l1.52 2.11-.34-2.5-1.18.4zM18.52 18.92a4.23 4.23 0 0 1-2.62 1.33l.41-.37c2.39-2.4 2.86-4.95 1.4-7.63l-.91-1.6-.8-1.67c-.25-.56-.19-.98.21-1.29a.7.7 0 0 1 .55-.13c.28.05.54.23.72.5l2.37 4.16c.97 1.62 1.14 4.23-1.33 6.7zm-11-.44l-4.15-4.15a.83.83 0 0 1 1.17-1.17l2.16 2.16a.37.37 0 0 0 .51-.52l-2.15-2.16L3.6 11.2a.83.83 0 0 1 1.17-1.17l3.43 3.44a.36.36 0 0 0 .52 0 .36.36 0 0 0 0-.52L5.29 9.51l-.97-.97a.83.83 0 0 1 0-1.16.84.84 0 0 1 1.17 0l.97.97 3.44 3.43a.36.36 0 0 0 .51 0 .37.37 0 0 0 0-.52L6.98 7.83a.82.82 0 0 1-.18-.9.82.82 0 0 1 .76-.51c.22 0 .43.09.58.24l5.8 5.79a.37.37 0 0 0 .58-.42L13.4 9.67c-.26-.56-.2-.98.2-1.29a.7.7 0 0 1 .55-.13c.28.05.55.23.73.5l2.2 3.86c1.3 2.38.87 4.59-1.29 6.75a4.65 4.65 0 0 1-4.19 1.37 7.73 7.73 0 0 1-4.07-2.25zm3.23-12.5l2.12 2.11c-.41.5-.47 1.17-.13 1.9l.22.46-3.52-3.53a.81.81 0 0 1-.1-.36c0-.23.09-.43.24-.59a.85.85 0 0 1 1.17 0zm7.36 1.7a1.86 1.86 0 0 0-1.23-.84 1.44 1.44 0 0 0-1.12.27c-.3.24-.5.55-.58.89-.25-.25-.57-.4-.91-.47-.28-.04-.56 0-.82.1l-2.18-2.18a1.56 1.56 0 0 0-2.2 0c-.2.2-.33.44-.4.7a1.56 1.56 0 0 0-2.63.75 1.6 1.6 0 0 0-2.23-.04 1.56 1.56 0 0 0 0 2.2c-.24.1-.5.24-.72.45a1.56 1.56 0 0 0 0 2.2l.52.52a1.56 1.56 0 0 0-.75 2.61L7 19a8.46 8.46 0 0 0 4.48 2.45 5.18 5.18 0 0 0 3.36-.5 4.89 4.89 0 0 0 4.2-1.51c2.75-2.77 2.54-5.74 1.43-7.59L18.1 7.68z"
+              ></path>
+            </svg>
+            <svg
+              width="27"
+              height="27"
+              viewBox="0 0 24 24"
+              aria-label="responses"
+              class="gc"
+            >
+              <path
+                d="M18 16.8a7.14 7.14 0 0 0 2.24-5.32c0-4.12-3.53-7.48-8.05-7.48C7.67 4 4 7.36 4 11.48c0 4.13 3.67 7.48 8.2 7.48a8.9 8.9 0 0 0 2.38-.32c.23.2.48.39.75.56 1.06.69 2.2 1.04 3.4 1.04.22 0 .4-.11.48-.29a.5.5 0 0 0-.04-.52 6.4 6.4 0 0 1-1.16-2.65v.02zm-3.12 1.06l-.06-.22-.32.1a8 8 0 0 1-2.3.33c-4.03 0-7.3-2.96-7.3-6.59S8.17 4.9 12.2 4.9c4 0 7.1 2.96 7.1 6.6 0 1.8-.6 3.47-2.02 4.72l-.2.16v.26l.02.3a6.74 6.74 0 0 0 .88 2.4 5.27 5.27 0 0 1-2.17-.86c-.28-.17-.72-.38-.94-.59l.01-.02z"
+              ></path>
+            </svg>
+            <svg width="27" height="27" viewBox="0 0 24 24" fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.22 4.93a.42.42 0 0 1-.12.13h.01a.45.45 0 0 1-.29.08.52.52 0 0 1-.3-.13L12.5 3v7.07a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5V3.02l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-.16-.3.4.4 0 0 1 .1-.32l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.8a.42.42 0 0 1 .07.5zm-.1.14zm.88 2h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2H8a.5.5 0 0 1 .35.14c.1.1.15.22.15.35a.5.5 0 0 1-.15.35.5.5 0 0 1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.2c.5 0 .9-.4.9-.9V8.96c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+          ullam aspernatur. Quo, esse rem voluptatum placeat veritatis molestias
+          suscipit necessitatibus repudiandae omnis. Voluptates blanditiis
+          dolore nostrum molestiae in sequi animi, aliquid non voluptate
+          voluptas minima ullam totam numquam a unde quae maxime. Sed adipisci
+          laborum quaerat ullam eligendi neque fugit cum, eum sit vero, at nobis
+          vitae doloribus quisquam? Quo ipsam numquam esse repellat quas sit a
+          alias est reprehenderit, enim sequi aliquid ab dolores vero dicta
+          voluptatum. Laboriosam totam in magni, modi reiciendis, voluptate vero
+          incidunt voluptatibus enim inventore, cumque adipisci pariatur
+          deleniti iusto nam cupiditate quas libero. Explicabo ipsa, illum
+          laboriosam quae laudantium quo, aut, assumenda modi nesciunt error a
+          cupiditate illo eligendi? Eos officia iure earum distinctio accusamus
+          quaerat autem! Pariatur quis dolor consectetur inventore officia vero
+          et earum magni, at, dicta necessitatibus impedit doloremque nostrum
+          deleniti architecto soluta quod nemo harum ex mollitia. Maxime
+          corrupti, eius eligendi, ullam error voluptatum aperiam repellat,
+          debitis dolores ab sed enim. Cum, fuga eveniet esse quas placeat vel
+          praesentium et sequi libero accusantium. Dolore, cupiditate in dicta
+          natus eaque possimus fugit nisi, praesentium quisquam fugiat provident
+          exercitationem illo delectus saepe. Ad, esse autem. Suscipit quis
+          illum laborum quos quas iste est, ipsum minima accusamus totam
+          incidunt doloribus nam debitis voluptatum et neque exercitationem
+          magni soluta itaque! Distinctio blanditiis, enim vitae doloremque
+          libero suscipit quibusdam nesciunt modi neque beatae molestiae minima
+          odio. Voluptate laboriosam labore voluptas. Ad sed natus provident
+          rem, nulla tenetur praesentium dolor, repellendus culpa maxime
+          necessitatibus totam accusantium voluptates, tempore consequuntur?
+          Nisi, nam. Voluptas, quasi voluptatibus iusto id error ab aliquid
+          similique ullam officia unde accusamus nostrum rerum aspernatur nam
+          minus odio ducimus. Blanditiis accusantium, itaque magni deleniti unde
+          et repudiandae voluptas incidunt expedita corrupti nisi vitae,
+          veritatis tempora nemo error sunt sapiente assumenda totam quod vel ex
+          temporibus, soluta facilis. Repellat distinctio ut aut esse expedita
+          reprehenderit deleniti magnam quos omnis odio fuga possimus, similique
+          provident mollitia dignissimos sunt magni maiores iusto dolor dicta.
+          Repellendus, a ad doloremque quaerat reprehenderit maxime pariatur
+          inventore, voluptas eveniet expedita delectus voluptatum tempora
+          distinctio. Reprehenderit atque eum eveniet, perferendis sit mollitia.
+        </p>
+      </div>
+    </div>
+
+    <div class="max-width-1 m-auto"><hr /></div>
+    <div class="home-articles max-width-1 m-auto font1">
+      <h1>People who read this also read</h1>
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="article3.jpg" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <a href="blog1.html"
+            ><h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2></a
+          >
+          <span>Author Name</span>
+          <span>Date | Reading Time</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ut
+            earum soluta aperiam incidunt, ducimus cumque est facilis enim. Amet
+            praesentium ipsam quo unde. Eos non facere magnam eius ipsam iusto,
+            repellat odit quam voluptatem, impedit nesciunt quo beatae
+            voluptate.
+          </p>
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="article2.jpg" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <a href="blog2.html"
+            ><h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2></a
+          >
+          <span>Author Name</span>
+          <span>Date | Reading Time</span>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+            voluptas temporibus, accusantium illum molestias ipsa suscipit
+            cumque. Quod voluptatibus, voluptate delectus aut id natus. Aut
+            ipsum eius a laborum quis ea illum dolorum doloremque mollitia porro
+            repellendus inventore explicabo officiis cupiditate adipisci saepe
+            similique qui totam dicta possimus itaque, ratione laudantium!
+            Ducimus iusto doloremque, ullam culpa nulla tempora necessitatibus
+            eveniet voluptates placeat laboriosam, incidunt, quas error dolores
+            aspernatur quo? Consectetur.
+          </p>
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="article3.jpg" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <a href="blog3.html"
+            ><h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2></a
+          >
+          <span>Author Name</span>
+          <span>Date | Reading Time</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ut
+            earum soluta aperiam incidunt, ducimus cumque est facilis enim. Amet
+            praesentium ipsam quo unde. Eos non facere magnam eius ipsam iusto,
+            repellat odit quam voluptatem, impedit nesciunt quo beatae
+            voluptate.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer m-auto">
+      <p>Copyright; Blogs.com</p>
+      <a href="https://www.vecteezy.com/free-vector/typing"
+        >Graphics Credits:Vecteezy</a
+      >
+    </div>
+  </body>
+</html>
