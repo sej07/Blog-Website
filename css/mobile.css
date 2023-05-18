@@ -1,0 +1,29 @@
+@media screen and (max-width:1300px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article img{
+        text-align: center;
+        width: 70vw;
+        height: inherit;
+    }
+    .year-box {
+    display: none;
+    }
+    .blog p{
+        font-size: 25px;
+    }
+
+}

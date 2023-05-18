@@ -1,0 +1,18 @@
+.blog{
+    position: relative;
+    /* height: 575px; */
+}
+.blog p{
+    margin: 12px;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.author div{
+    margin: 12px 0;
+}
+.social{
+    cursor: pointer;
+}
